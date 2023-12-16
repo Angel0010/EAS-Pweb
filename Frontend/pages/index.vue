@@ -1,4 +1,5 @@
 <template>
+  <NuxtLink to= "/cek-status">Status </NuxtLink>
   <div>
     <h1>Form Registrasi Lomba</h1>
     <form @submit.prevent="submitForm">
